@@ -113,8 +113,8 @@ public class OrangeHR {
 
 		Assert.assertEquals(driver.getCurrentUrl(), "https://opensource-demo.orangehrmlive.com/index.php/dashboard");
 
-		WebElement errorMsg = driver.findElement(By.id("welcome"));
-		Assert.assertEquals(errorMsg.getText(), "Welcome Paul");
+		WebElement employeeName = driver.findElement(By.id("welcome"));
+		Assert.assertEquals(employeeName.getText(), "Welcome Paul");
 
 	}
 

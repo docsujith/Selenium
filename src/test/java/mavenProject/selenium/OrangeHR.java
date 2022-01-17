@@ -27,8 +27,7 @@ public class OrangeHR {
 
 	}
 	
-    // aaaaaaaaaaa
-	// Forgot password functionality
+	// Forgot password 
 	@Test
 	public void forgotPasswordLink() {
 
